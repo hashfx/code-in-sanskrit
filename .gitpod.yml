@@ -1,0 +1,3 @@
+tasks:
+  - init: curl -fsSL https://vedic-lang.github.io/install/install.sh | bash
+
