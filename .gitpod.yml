@@ -1,3 +1,5 @@
 tasks:
-  - init: curl -fsSL https://vedic-lang.github.io/install/install.sh | bash
+  - init: |
+      curl -fsSL https://vedic-lang.github.io/install/install.sh | bash
+      code --install-extension vedic.vedic-syntax-highlighter-2.0.4.vsix 
 
